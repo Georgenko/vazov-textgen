@@ -5,7 +5,9 @@ I will train sequence models with Vazov books and learn about RNNs, LSTMs, and T
 ```
 ├── data/
 │   ├── raw/          # original downloaded .txt files
-│   └── processed/    # cleaned, tokenized output
+│   ├── processed/    # cleaned, tokenized output (output of notebook 1)
+│   ├── datasets/     # encoded splits ready for training (output of notebook 2)
+│   └── vocab/        # vocab/tokenizer artifacts (output of notebook 2)
 ├── notebooks/
 └── src/              # models go here later
 ```
